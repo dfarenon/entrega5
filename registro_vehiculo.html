@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro de Vehículo</title>
+</head>
+<body>
+    <h1>Registro de Nuevo Vehículo</h1>
+    <form method="post" action="RegistroVehiculoServlet">
+        <div>
+            <label for="placa">Placa:</label>
+            <input type="text" id="placa" name="placa" required>
+        </div>
+        <br>
+        <div>
+            <label for="marca">Marca:</label>
+            <input type="text" id="marca" name="marca" required>
+        </div>
+        <br>
+        <div>
+            <label for="modelo">Modelo:</label>
+            <input type="text" id="modelo" name="modelo" required>
+        </div>
+        <br>
+        <div>
+            <label for="anio">Año:</label>
+            <input type="number" id="anio" name="anio" required>
+        </div>
+        <br>
+        <div>
+            <label for="color">Color:</label>
+            <input type="text" id="color" name="color">
+        </div>
+        <br>
+        <div>
+            <label for="numeroVIN">Número de VIN (Opcional):</label>
+            <input type="text" id="numeroVIN" name="numeroVIN">
+        </div>
+        <br>
+        <button type="submit">Registrar Vehículo</button>
+    </form>
+</body>
+</html>
